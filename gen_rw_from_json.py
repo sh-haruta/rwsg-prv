@@ -62,7 +62,7 @@ def main(root_json_name):
             temperature=0.0
         )
         print(response.choices[0].message.content)
-        # 結果の保存
+        # save result
         with open(out_dir + out_file, 'w', encoding='utf-8') as f:
             f.write(response.choices[0].message.content)
 
