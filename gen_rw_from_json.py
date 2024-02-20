@@ -20,7 +20,7 @@ def main(root_json_name):
         os.makedirs(out_dir)
         print(f'{out_dir} is created.')
 
-    # 読み込ませるデータの整形
+    # adjusting data
     root_paper = f'{dir_dataset}{root_json_name}.json'
     out_file = os.path.basename(root_paper).split('.')[0] + \
                f"{prompt_name.split('.')[0]}.txt"
@@ -39,7 +39,7 @@ def main(root_json_name):
             temperature=0.0
         )
         print(response.choices[0].message.content)
-        # 結果の保存
+        # save result
         with open(out_dir + os.path.basename(root_paper).split('.')[0] +
                   '_pure_gpt.txt', 'w', encoding='utf-8') as f:
             f.write(response.choices[0].message.content)

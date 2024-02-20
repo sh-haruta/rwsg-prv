@@ -64,9 +64,8 @@ def process_root_info(file_path):
     author_names = author_names[:-2]
 
     title = f"[Your Title: \n{root_info['title']}\n]\n\n"
-    #author = f"Author: {author_names}\n"
     intro = f"[Your Introduction: \n{root_info['introduction']}\n]\n\n"
-    root_body = f'{title}{intro}'  # rootはauthorいらない気がするので入れない
+    root_body = f'{title}{intro}'
 
     return root_body
 
@@ -96,7 +95,7 @@ def process_leaves_info(file_path):
         leaf_intro_flatten = leaf['introduction'].replace('\n', ' ')
         intro = f"Introduction: {leaf_intro_flatten}\n\n"
         if leaf['introduction'] == '':
-            intro = f"Introduction: {leaf['abstract']}\n\n"  # 課金系など
+            intro = f"Introduction: {leaf['abstract']}\n\n"
         leaf_body = f'{title}{full_author}{citation_name}{intro}'
         leaves_body += leaf_body
 
