@@ -29,7 +29,7 @@ The formats are provided in .sample files.
 ### For dataset (Coming soon)
 In the dataset, we include the contents which meet the CC4.0 lisence.
 
-If a cited paper is not the case, its title is only provided.
+If a cited paper is not the case, its title, authors, and published year are only provided.
 
 In that case, please manually add the contents.
 
