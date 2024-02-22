@@ -33,9 +33,13 @@ If a cited paper is not the case, its title is only provided.
 
 In that case, please manually add the contents.
 
-Adding only abstract also works.
 
-Note that root == target and leaf == cited.
+Note: 
+
+- Some of the target papers we used in experiment is available now.
+  - Remaining ones are added later.
+- root == target and leaf == cited.
+- Adding only abstract also works.
 
 ## Usage
 

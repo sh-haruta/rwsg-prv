@@ -95,6 +95,9 @@ def process_leaves_info(file_path):
         leaf_intro_flatten = leaf['introduction'].replace('\n', ' ')
         intro = f"Introduction: {leaf_intro_flatten}\n\n"
         if leaf['introduction'] == '':
+            if leaf['abstract'] == '':
+                raise Exception(f'At least abstract is needed.\n '
+                                f'{full_author}{title}')
             intro = f"Introduction: {leaf['abstract']}\n\n"
         leaf_body = f'{title}{full_author}{citation_name}{intro}'
         leaves_body += leaf_body
