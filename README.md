@@ -26,8 +26,8 @@ Please make the following two files at the same directory as README.md:
 
 The formats are provided in .sample files.
 
-### For dataset (Coming soon)
-In the dataset, we include the contents which meet the CC4.0 lisence.
+### For dataset
+In the dataset, we include the contents which meet the CCBY4.0 lisence.
 
 If a cited paper is not the case, its title, authors, and published year are only provided.
 
@@ -36,12 +36,12 @@ In that case, please manually add the contents.
 
 Note: 
 
-- Some of the target papers we used in experiment is available now.
-  - Remaining ones are added later.
 - root == target and leaf == cited.
 - Adding only abstract also works.
 
 ## Usage
+
+Please use --root_json_name to designate json file name.
 
 An example of the proposed prompt:
 
