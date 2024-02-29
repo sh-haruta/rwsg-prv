@@ -46,7 +46,7 @@ def add_alphabet(lst):
     for i, item in enumerate(result):
         if item.endswith('b'):
             target = item[:-1]
-            try:  # TODO: 重要なエラーをスキップしてしまいそう
+            try:  
                 index = result.index(target)
                 result[index] = target + 'a'
             except:
