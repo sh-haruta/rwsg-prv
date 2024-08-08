@@ -1,4 +1,4 @@
-# LLM-based Related Work Section Generation Framework Incorporating Perspectives Researchers Value 
+# A Prompt Design for LLM-based Related Work Section Drafting
 
 ![overview](figures/overview.png)
 
