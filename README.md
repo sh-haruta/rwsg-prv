@@ -2,7 +2,7 @@
 
 ![overview](./overall_rwg.png)
 
-This paper is submitted to ARR 2024 Feb.
+This paper is submitted to AAAI 2025 Aug.
 Please see the details in the paper.
 
 ## Requirement 
