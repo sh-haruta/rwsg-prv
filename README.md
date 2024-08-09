@@ -1,6 +1,6 @@
 # A Prompt Design for LLM-based Related Work Section Drafting
 
-![overview](./overview.png)
+![overview](./overall_rwg.png)
 
 This paper is submitted to ARR 2024 Feb.
 Please see the details in the paper.
